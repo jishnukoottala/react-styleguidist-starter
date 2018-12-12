@@ -1,0 +1,139 @@
+$height:80px;
+$logo-height:5rem;
+
+
+.logo-img{
+
+    height: $logo-height;
+
+    @media only screen and (max-width: 600px) {
+
+        height:2.5rem;
+        
+        }
+}
+
+.header{
+
+    height:$height;
+   
+
+   }
+   .icon-home:before {
+    content: "\e900";
+  }
+   
+   .brand-div{
+       flex: 0 1 50%;
+       max-width: 50%;
+      padding-left:0.75rem;
+
+      @media only screen and (max-width: 600px) {
+        flex: 0 1 50%;
+        max-width: 50%;
+       padding-left:0;
+      }
+   }
+
+   .nav-div{
+    flex: 0 1 50%;
+    max-width: 50%;
+
+    @media only screen and (max-width: 600px) {
+
+        flex: 0 1 50%;
+        max-width: 50%;
+    }
+    
+   }
+
+   .global-nav-right {
+    font-size: 2.4rem;
+    float: right!important;
+    line-height: 1.71429;
+    display:flex;
+    @media only screen and (max-width: 600px) {
+
+        font-size:1rem;
+    }
+   }
+
+   .navbar-ul{
+       list-style:none;
+       margin-left:0;
+       padding-left:0;
+       display: flex;
+       flex-direction: row;
+       flex-wrap: nowrap;
+       font-size:1.5rem;
+       flex: 1 1 75%;
+   }
+
+
+   .navbar-li-item{
+       display: flex;
+       flex: 1 1 auto;
+       position: relative;
+      
+
+       a{
+           padding:0.5rem 0.86rem;
+           text-decoration: none;
+           align-items: center;
+           justify-content: center;
+           text-align: center;
+           color:black;
+
+           @media only screen and (max-width: 600px) {
+
+            
+           }
+
+           
+       }
+   }
+
+   .nav-icon{
+    position: relative;
+     
+
+      @media only screen and (max-width: 600px) {
+        position: relative;
+        top:0;
+        left:0;
+            
+    }
+      
+   }
+
+   .nav-item-name{
+
+    @media only screen and (max-width: 600px) {
+
+        display: none;
+       }
+   }
+
+
+   .logout{
+    flex: 1 1 25%;
+    padding: 0 0 0 1.25rem;
+    top:10%;
+    margin-right:2.4rem;
+   }
+   .logout::before{
+        content:'';
+        width:1px;
+        height:100%;
+        background-color: red;
+        position: absolute;
+        top:8%;
+       right:3%;
+        height:1.8rem;
+   }
+
+   .nav-icon-top-logout{
+
+    position: absolute;
+    top:2%
+   }

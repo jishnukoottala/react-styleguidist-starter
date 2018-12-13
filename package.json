@@ -7,7 +7,8 @@
     "build": "webpack",
     "start": "webpack-dev-server  --open",
     "styleguide": "styleguidist server",
-    "styleguide:build": "styleguidist build"
+    "styleguide:build": "styleguidist build",
+	"deploy": "gh-pages -d build"
   },
   "keywords": [
     "react",
@@ -43,5 +44,6 @@
     "style-loader": "^0.23.1",
     "url-loader": "^1.1.2",
     "webpack-cli": "^3.1.2"
-  }
+  },
+  "homepage":"https://jishnukoottala.github.io/react-styleguidist-starter/"
 }

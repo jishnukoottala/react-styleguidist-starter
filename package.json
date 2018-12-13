@@ -8,12 +8,12 @@
     "start": "webpack-dev-server  --open",
     "styleguide": "styleguidist server",
     "styleguide:build": "styleguidist build",
-	"predeploy": "npm run build"
-	"deploy": "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [
-    "react",
-    "material-ui"
+    "react"
+   
   ],
   "author": "jishnu koottala",
   "license": "ISC",
@@ -37,6 +37,7 @@
     "babel-loader": "^8.0.4",
     "css-loader": "^1.0.1",
     "dotenv-webpack": "^1.5.7",
+    "gh-pages": "^2.0.1",
     "icons-loader": "0.0.6",
     "node-sass": "^4.10.0",
     "react-styleguidist": "^8.0.6",
@@ -46,5 +47,5 @@
     "url-loader": "^1.1.2",
     "webpack-cli": "^3.1.2"
   },
-  "homepage":"https://jishnukoottala.github.io/react-styleguidist-starter/"
+  "homepage": "https://jishnukoottala.github.io/react-styleguidist-starter/"
 }

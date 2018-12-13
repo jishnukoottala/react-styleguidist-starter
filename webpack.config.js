@@ -18,7 +18,7 @@ const plugins = [
     entry: './src/app.js',
     mode:isProduction?'production':'development',
     output: {
-      path: path.resolve(__dirname, 'public'),
+      path: path.resolve(__dirname, 'build'),
       filename: 'bundle.js'
     },
     module: {

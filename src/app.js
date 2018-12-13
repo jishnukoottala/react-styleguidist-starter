@@ -4,8 +4,8 @@ import WebFont from 'webfontloader';
 
 
 import './styles/main.scss';
-import AppShell from 'containers/AppShell/AppShell';
-import theme from 'config/theme'
+
+
 import AppRouter from 'routes/AppRouter'
 
 WebFont.load({
@@ -19,9 +19,9 @@ export default class App extends Component {
     return (
       <div>
         
-<AppShell theme={theme}>
+
 <AppRouter/>
-</AppShell>
+
       </div>
     )
   }
